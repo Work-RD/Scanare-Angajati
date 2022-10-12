@@ -90,7 +90,6 @@ namespace Scanare_Angajati
                     this.button2.Visible = true;
                     this.textBox1.Visible = false;
                     this.button3.Visible = false;
-                    this.pictureBox1.Visible = false;
                 }
                 else
                 {
@@ -100,7 +99,6 @@ namespace Scanare_Angajati
                     this.label2.Visible = true;
                     this.textBox1.Visible = false;
                     this.button3.Visible = false;
-                    this.pictureBox1.Visible = false;
                     this.label2.Text = "Număr de marcă greșit!" + "\r\n" + "Vă rugăm luați legătura cu HR.";
                 }
                 myConnection.Close();
@@ -119,7 +117,6 @@ namespace Scanare_Angajati
                     this.label2.Visible = true;
                     this.textBox1.Visible = false;
                     this.button3.Visible = false;
-                    this.pictureBox1.Visible = false;
                     this.label2.Text = "Scanare reușită!";
                 }
                 else
@@ -130,7 +127,6 @@ namespace Scanare_Angajati
                     this.label2.Visible = true;
                     this.textBox1.Visible = false;
                     this.button3.Visible = false;
-                    this.pictureBox1.Visible = false;
                     this.label2.Text = "Cartelă nealocată!" + "\r\n" + "Vă rugăm luați legătura cu HR.";
                 }
                 myConnection.Close();
@@ -156,7 +152,6 @@ namespace Scanare_Angajati
             this.label2.Visible = false;
             this.textBox1.Visible = true;
             this.button3.Visible = true;
-            this.pictureBox1.Visible = true;
             this.ActiveControl = textBox1;
         }
 
@@ -179,7 +174,6 @@ namespace Scanare_Angajati
                 this.label2.Visible = true;
                 this.textBox1.Visible = false;
                 this.button3.Visible = false;
-                this.pictureBox1.Visible = false;
                 this.button1.Visible = false;
                 this.button2.Visible = false;
                 this.label2.Text = "Scanare reușită!";
@@ -201,7 +195,6 @@ namespace Scanare_Angajati
             this.label1.Text = "Te rugăm să te scanezi aici !";
             this.textBox1.Visible = true;
             this.button3.Visible = true;
-            this.pictureBox1.Visible = true;
             this.button1.Visible = false;
             this.button2.Visible = false;
             this.ActiveControl = textBox1;
